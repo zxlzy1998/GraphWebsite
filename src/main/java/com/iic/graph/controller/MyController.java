@@ -91,7 +91,7 @@ public class MyController {
         Student student = new Student();
         student.setName(name);
         student.setAge(age);
-
+        System.out.println("branch2");
         String json="";
         if(student !=null){
             ObjectMapper om = new ObjectMapper();
