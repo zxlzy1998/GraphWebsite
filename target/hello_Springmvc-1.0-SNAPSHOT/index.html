@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>第一个springmvc项目</p>
+    <p>
+        <a href="some.do">发起some.do请求</a>
+    </p>
+<h2>提交参数给Controller</h2>
+
+<form action="receiveproperty.do" method="post">
+    姓名：<input type="text" name="name"><br/>
+    年龄：<input type="text" name="age"><br/>
+    <input type="submit" value="提交参数">
+</form>
+    <h3>使用对象接收参数</h3>
+    <form action="receiveobject.do" method="post">
+        姓名：<input type="text" name="name"><br/>
+        年龄：<input type="text" name="age"><br/>
+        <input type="submit" value="提交参数">
+    </form>
+</body>
+</html>
