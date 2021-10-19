@@ -96,7 +96,6 @@ public class MyController {
         if(student !=null){
             ObjectMapper om = new ObjectMapper();
             json = om.writeValueAsString(student);
-            System.out.println("student转换的json"+json);
         }
 
         //输出数据，相应ajax请求
